@@ -19,7 +19,13 @@ const FeaturedServices = () => {
       icon: <Sparkles className="w-8 h-8 text-[#D4B098]" />,
       title: 'Beauty Treatments',
       description: 'Complete beauty services for a radiant appearance',
-      image: 'https://images.unsplash.com/photo-1607779097040-26e80aa4576b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+      image: 'https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    },
+    {
+      icon: <Sparkles className="w-8 h-8 text-[#D4B098]" />,
+      title: 'Hair Services',
+      description: 'Stylish cuts, vibrant colors, deep conditioning, sleek blowouts, updos.',
+      image: 'https://images.pexels.com/photos/13714794/pexels-photo-13714794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     }
   ];
 
@@ -31,7 +37,7 @@ const FeaturedServices = () => {
           <p className="text-gray-600">Experience the ultimate in beauty and wellness</p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div key={index} className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition duration-300">
               <div className="aspect-w-3 aspect-h-4">

@@ -35,8 +35,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-serif mb-4">Follow Us</h3>
             <div className="space-x-4">
-              <a href="#" className="hover:text-secondary transition">Instagram</a>
-              <a href="#" className="hover:text-secondary transition">Facebook</a>
+              <a href="https://www.instagram.com/ivanabeauty.nz" className="hover:text-secondary transition">Instagram</a>
+              <a href="https://www.facebook.com/ivanabeauty.nz" className="hover:text-secondary transition">Facebook</a>
             </div>
           </div>
         </div>
