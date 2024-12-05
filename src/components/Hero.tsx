@@ -21,11 +21,12 @@ const Hero = () => {
             Where luxury meets transformation
           </p>
           <a
-            href="/booking"
-            className="inline-block px-8 py-3 bg-[#D4B098] text-white rounded hover:bg-[#1A1A1A] transition duration-300"
-          >
-            Book Your Experience
-          </a>
+  href="tel:096002159"
+  className="inline-block px-8 py-3 bg-[#D4B098] text-white rounded hover:bg-[#1A1A1A] transition duration-300"
+>
+  Book An Appoinment
+</a>
+
         </div>
       </div>
     </div>

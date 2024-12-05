@@ -45,6 +45,7 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Ivana House of Beauty. All rights reserved.</p>
         </div>
       </div>
+      <img src="https://i.ibb.co/Pcgnc1m/developed-by-BILLS-CO.png" alt="logo" />
     </footer>
   );
 };

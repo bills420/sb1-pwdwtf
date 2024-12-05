@@ -11,7 +11,8 @@ const Navigation = () => {
     { label: 'Services', href: '/services' },
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
-    { label: 'Book Now', href: '/booking', isButton: true },
+    { label: 'Call Now', href: 'tel:096002159', isButton: true },
+
   ];
 
   return (
@@ -87,5 +88,12 @@ const Navigation = () => {
     </nav>
   );
 };
+// Inside your navigation component or App.tsx
+<nav>
+  <ul>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/about">About</Link></li> {/* This link now routes to the About page */}
+  </ul>
+</nav>
 
 export default Navigation;
