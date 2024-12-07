@@ -1,12 +1,11 @@
 export const services = [
   {
     id: '1',
-    name: 'Luxury Facial',
-    description: 'Rejuvenate your skin with our signature facial treatments',
-    price: '$120',
-    duration: '60 min',
+    name: 'Hair Cut - Straight, U, V',
+    price: '$35',
     image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
   },
+  
   {
     id: '2',
     name: 'Advanced Skincare',
@@ -19,7 +18,7 @@ export const services = [
     id: '3',
     name: 'Beauty Treatment',
     description: 'Complete beauty services for a radiant appearance',
-    price: '$90',
+    price: '$80',
     duration: '45 min',
     image: 'https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },

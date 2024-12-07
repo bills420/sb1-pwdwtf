@@ -4,7 +4,7 @@ export const testimonials = [
     name: 'Aileen Dador',
     content: 'The best facial I\'ve ever had! The staff is professional and the atmosphere is so relaxing.',
     rating: 5,
-    service: 'Luxury Facial'
+    service: 'Facial Treatment'
   },
   {
     id: '2',
