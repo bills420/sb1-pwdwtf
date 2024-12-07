@@ -4,7 +4,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
-
+import Footer from './components/Footer';
 function App() {
   return (
     <Router>
