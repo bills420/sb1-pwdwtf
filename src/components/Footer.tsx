@@ -50,7 +50,10 @@ const Footer = () => {
           />
         </div>
         <div className="mt-8 pt-8 border-t border-white/10 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Ivana House of Beauty. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ivana House of Beauty. All rights reserved.<footer>
+    <p>Website developed by <a href="https://www.billsco.co.nz" target="_blank" class="highlight-link">billsco.co.nz</a></p>
+</footer>
+</p>
         </div>
       </div>
     </footer>
